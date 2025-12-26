@@ -1,0 +1,13 @@
+# Dependencies
+node_modules/
+
+# Next.js build output
+.next/
+out/
+build/
+
+# Environment variables (CRITICAL for RAG apps)
+.env
+.env.local
+.env.production
+.DS_Store
