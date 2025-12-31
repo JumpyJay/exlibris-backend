@@ -3,16 +3,40 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "node ./bin/www"
+    "start": "node ./bin/www",
+    "dev": "nodemon --exec node ./bin/www"
   },
   "dependencies": {
+    "bcrypt": "^6.0.0",
     "cookie-parser": "~1.4.4",
     "core-js": "^3.47.0",
+    "cors": "^2.8.5",
     "debug": "~2.6.9",
+    "dotenv": "^17.2.3",
     "express": "^4.22.1",
+    "helmet": "^8.1.0",
     "http-errors": "~1.6.3",
+    "jsonwebtoken": "^9.0.3",
     "mkdirp": "^1.0.4",
     "morgan": "^1.10.1",
+    "pg": "^8.16.3",
     "pug": "^3.0.3"
+  },
+  "description": "",
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JumpyJay/exlibris-backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/JumpyJay/exlibris-backend/issues"
+  },
+  "homepage": "https://github.com/JumpyJay/exlibris-backend#readme",
+  "devDependencies": {
+    "nodemon": "^3.1.11"
   }
 }
